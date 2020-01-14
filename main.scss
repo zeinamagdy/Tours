@@ -19,7 +19,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-image: linear-gradient to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8), url("../img/hero.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -102,11 +102,11 @@ body {
 
 .btn:hover {
   transform: translateY(-0.3rem);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 10px 20px black; }
 
 .btn:active {
   transform: translateY(-0.1rem);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 5px 10px black; }
 
 .btn--white {
   background-color: #fff;

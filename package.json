@@ -1,0 +1,26 @@
+{
+  "name": "tours",
+  "version": "1.0.0",
+  "description": "Landing page for Tours App",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeinamagdy/Tours.git"
+  },
+  "author": "Zeinab Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeinamagdy/Tours/issues"
+  },
+  "homepage": "https://github.com/zeinamagdy/Tours#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "g": "^2.0.1",
+    "life-server": "^6.0.2"
+  }
+}
