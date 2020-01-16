@@ -19,8 +19,5 @@
   "devDependencies": {
     "node-sass": "^4.13.0"
   },
-  "dependencies": {
-    "g": "^2.0.1",
-    "life-server": "^6.0.2"
-  }
+  "dependencies": {}
 }
