@@ -12,11 +12,13 @@ $color-tertiary-dark: #5643fa;
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 $color-grey-dark: #777;
+$color-grey-dark-2:#999;
 $color-white: #fff;
 $color-black: #000;
 
 // Fonts
 $default-font-size: 1.6rem;
+$meduim-font-size: 1.5rem;
 
 // Grid
 $grid-width: 114rem;
@@ -26,6 +28,5 @@ $gutter-horizontal: 6rem;
 // border-raduis
 $small-border-raduis: 3px;
 
-
 // shadow
-$black-shadow: 0 1.5rem 4rem rbga($color-black,.15);
+$black-shadow: 0 1.5rem 4rem rgba(#000, 0.15);
