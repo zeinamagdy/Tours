@@ -1,6 +1,6 @@
 .footer {
-  background-color: $color-grey-dark-3;
-  color: $color-grey-light-1;
+  background-color: $color-gray-dark-3;
+  color: $color-gray-light-1;
   padding: 10rem 0;
   font-size: 1.4rem;
   &__logo-box {
@@ -26,8 +26,8 @@
   &__link {
     &:link,
     &:visited {
-      background-color: $color-grey-dark-3;
-      color: $color-grey-light-1;
+      background-color: $color-gray-dark-3;
+      color: $color-gray-light-1;
       text-decoration: none;
       text-transform: uppercase;
       display: inline-block;
@@ -41,7 +41,7 @@
     }
   }
   &__copyrights {
-    border-top: 1px solid $color-grey-dark;
+    border-top: 1px solid $color-gray-dark;
     padding-top: 2rem;
     float: right;
     width: 80%;

@@ -39,7 +39,7 @@
     transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   &__list {
-    @include centerElement;
+    @include absCenter;
     list-style: none;
     text-align: center;
     width: 100%;
@@ -88,7 +88,7 @@
     &::after {
       width: 3rem;
       height: 2px;
-      background-color: $color-grey-dark-3;
+      background-color: $color-gray-dark-3;
       display: inline-block;
     }
     &::before,
